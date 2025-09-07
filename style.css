@@ -1,0 +1,91 @@
+body{
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   min-height:100vh;
+}
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+.container{
+  max-width:450px;
+  border-radius:8px;
+  background:rgb(29, 176, 187);
+  font-family:sans-serif;
+  padding:43px;
+}
+.title{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   gap:10px;
+   flex-wrap:wrap-reverse
+}
+h1{
+   color:white;
+   letter-spacing: 2px;
+}
+#celsius, #Fahrenhit, #kelvin{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+  margin-top:25px;
+}
+.icon{
+   flex:1;
+   height:60px;
+   line-height:60px;
+   font-size:30px;
+   text-align:center;
+   background:#4d5964;
+   color:white;
+   border-radius:0 8px 8px 0;
+}
+input{
+   flex:5;
+   height:60px;
+   font-size:20px;
+   font-weight:600;
+   text-align:center;
+   border:none;
+   outline:none;
+   border-radius:10px;
+   padding:0 10px;
+
+}
+.button{
+   margin-top:20px;
+   text-align:center;
+}
+.button button{
+   margin:0px;
+   border-radius:10px;
+   padding:10px 20px;
+   font-size:20px;
+   font-weight:600;
+   border-radius:3px;
+   border:none;
+   outline:none;
+   cursor:pointer;
+
+}
+.Temp-icon{
+   color:white;
+   flex:1;
+}
+.Temp-icon img{
+   height:71px; 
+}
+.center{
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+   width:24%;
+}
+
+button:hover{
+   background-color: rgb(33, 83, 84);
+   color:white;
+}
